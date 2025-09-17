@@ -97,5 +97,12 @@ header{
     };
 }
 
+.separetor {
+    border: 0.5px solid var(--color-black);
+    opacity: calc(10%);
+}
 
+.long-s {
+    margin: 5rem 0;
+}
 /* #endregion Main */
