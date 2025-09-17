@@ -75,6 +75,24 @@ header{
         font-size: 4rem;
         font-weight: 800;
     }
+
+    .w-30 {
+        width: 30%; 
+    }
+
+    .w-70 {
+        width: 70%;
+        position: relative;
+    }
+
+    .img-jumbo {
+        position: absolute;
+        height: 500px;
+    }
+
+    p{
+        padding: 2rem 0;
+    };
 }
 
 
