@@ -69,6 +69,7 @@ a{
     margin-bottom: 3rem;
 }
 
+
 /* #endregion Generals */
 
 header{
@@ -121,6 +122,9 @@ header{
 }
 
 .bussines{
+
+    margin-bottom: 6rem;
+
     span {
         padding: 2rem 0;
     }
@@ -145,7 +149,19 @@ header{
     div{
         justify-content: space-between;
     }
-
 }
 
+.partner{
+    .d-flex{
+        justify-content: space-between;
+    }
+
+    .w-60{
+        width: 60%;
+    }
+
+    .w-35{
+        width: 35%;
+    }
+}
 /* #endregion Main */
