@@ -196,3 +196,21 @@ header{
 margin-bottom: 6rem;
 }
 /* #endregion Main */
+
+footer {
+    padding-top: 5rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+   
+    .nav-footer {
+        width: 20%;
+    }
+
+    .menu-ft {
+        margin-bottom: 5rem;
+    }
+
+    .language {
+        padding-bottom: 5rem;
+    }
+}
