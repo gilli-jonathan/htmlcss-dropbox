@@ -152,6 +152,9 @@ header{
 }
 
 .partner{
+
+    margin-bottom: 6rem;
+
     .d-flex{
         justify-content: space-between;
     }
@@ -168,4 +171,22 @@ header{
         width: 35%;
     }
 }
+
+.operation{
+
+    .operation-card {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 30%;
+    }
+    
+    img{
+        width: 100%;
+    }
+
+}
+
 /* #endregion Main */
