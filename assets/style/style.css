@@ -7,7 +7,7 @@
 
 /*.debug * {
     margin: 1px;
-    border-style: dotted;
+    border-style: dashed;
 }*/
 
 :root {
@@ -48,6 +48,11 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+.border {
+    border: 0.5px solid var(--color-black);
+    
 }
 
 /* #endregion Generals */
@@ -97,12 +102,31 @@ header{
     };
 }
 
-.separetor {
-    border: 0.5px solid var(--color-black);
-    opacity: calc(10%);
-}
-
 .long-s {
     margin: 5rem 0;
 }
+
+.bussines{
+    span {
+        padding: 2rem 0;
+    }
+    
+    label{
+        margin-right: 2rem;
+    }
+    
+    .card{
+        width: 30%;
+    }
+
+    .card-top {
+        border-bottom: 1px solid var(--color-black);
+    }
+
+    div{
+        justify-content: space-between;
+    }
+
+}
+
 /* #endregion Main */
