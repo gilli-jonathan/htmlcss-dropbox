@@ -5,13 +5,77 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.debug {
-    margin: 1 px dotted black;
+/*.debug * {
+    margin: 1px;
+    border-style: dotted;
+}*/
+
+:root {
+    --color-jumbo: #b4d0e6;
+    --color-btn: #0061fe;
+    --color-white: #fff;
+    --color-black: #000000;
 }
 
-/* Generals */
+
+/* #region Generals */
 
 .container-big {
     margin: auto;
-    min
+    width: 70%;
 }
+
+.container {
+    margin: auto;
+    width: 55%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.btn{
+    margin: 1px solid var(--color-black);
+    padding: 0.5rem;
+    background-color: var(--color-btn);
+    color: var(--color-white);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* #endregion Generals */
+
+header{
+    .nav-bar {
+        justify-content: space-between;
+    }
+
+    .h-left, .h-rigth {
+        padding: 1rem 2rem;
+        align-items: center;  
+    }
+
+    li{
+        padding: 2rem;
+    }
+}
+
+/* #region Main */
+
+.jumbotron {
+    background-color: var(--color-jumbo);
+
+    h1{
+        font-size: 4rem;
+        font-weight: 800;
+    }
+}
+
+
+/* #endregion Main */
