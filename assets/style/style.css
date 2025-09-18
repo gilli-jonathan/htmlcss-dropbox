@@ -94,6 +94,7 @@ header{
 /* #region Main */
 
 .jumbotron {
+    padding: 4rem 0;
     background-color: var(--color-jumbo);
 
     h1{
@@ -141,7 +142,7 @@ header{
         padding: .5rem;
     }
     .card-body {
-        padding-left: 1rem;
+        padding: 0 1.2rem;
 
     .btn a {
         color: var(--color-white);
@@ -152,11 +153,24 @@ header{
     div{
         justify-content: space-between;
     }
+    .col-60 {
+        width: 60%;
+    }
+
+    .col-40 {
+        padding-right: 1rem;
+    }
+
+
 .fa-check {
     color: var(--color-btn);
 }
 }
 
+.long-s {
+    margin: 5rem 0;
+    opacity: 40%;
+}
 
 .partner{
 
