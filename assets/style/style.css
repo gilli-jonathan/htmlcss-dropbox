@@ -87,12 +87,21 @@ header{
     }
 
     .h-left, .h-rigth {
-        padding: 1rem 2rem;
+        padding: 0rem 2rem;
         align-items: center;  
     }
 
     li{
-        padding: 2rem;
+        padding: 1.5rem;
+    }
+
+    li a{
+        text-decoration: none;
+        padding: 1.5rem 0;
+        color: var(--color-black);
+        &:hover {
+           border-bottom: 2px solid black; 
+        }
     }
 }
 
@@ -118,7 +127,7 @@ header{
 
     .img-jumbo {
         position: absolute;
-        height: 450px;
+        height: 500px;
     }
 
     .arrow{
