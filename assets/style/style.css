@@ -15,6 +15,7 @@
     --color-btn: #0061fe;
     --color-white: #fff;
     --color-black: #000000;
+    --color-grey: hsl(0, 0%, 66%);
 }
 
 
@@ -39,20 +40,21 @@ ul{
 }
 
 .btn{
-    margin: 1px solid var(--color-black);
     padding: 0.5rem;
     background-color: var(--color-btn);
     color: var(--color-white);
     text-align: center;
-   
+    text-decoration: none;
+
+   &:hover {
+    opacity: 70%;
+   }
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .border {
-    border: 0.5px solid var(--color-black);
+    border: 0.5px solid var(--color-grey);
     
 }
 
@@ -93,12 +95,12 @@ header{
     background-color: var(--color-jumbo);
 
     h1{
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: 800;
     }
 
     .w-30 {
-        width: 30%; 
+        width: 35%; 
     }
 
     .w-70 {
@@ -108,13 +110,9 @@ header{
 
     .img-jumbo {
         position: absolute;
-        height: 500px;
+        height: 400px;
     }
 
-    p{
-        padding: 1rem  0;
-        font-size: 1.5rem;
-    };
 }
 
 .long-s {
@@ -145,10 +143,17 @@ header{
     }
     .card-body {
         padding-left: 1rem;
+
+    .btn a {
+        color: var(--color-white);
+        text-decoration: none;
+    }
+
     }
     div{
         justify-content: space-between;
     }
+
 }
 
 .partner{
@@ -169,6 +174,10 @@ header{
 
     .w-35{
         width: 35%;
+    }
+
+    a btn. {
+        color: var(--color-black);
     }
 }
 
@@ -210,7 +219,21 @@ footer {
         margin-bottom: 5rem;
     }
 
+    li{
+        margin-top: 1rem;
+    }
+
     .language {
         padding-bottom: 5rem;
+    }
+
+    a{
+        color: var(--color-white);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
     }
 }
