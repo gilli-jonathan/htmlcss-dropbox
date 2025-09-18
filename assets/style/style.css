@@ -190,11 +190,14 @@ header{
 
     .w-35{
         width: 35%;
+       align-content: center;
     }
 
-    a btn. {
-        color: var(--color-black);
-    }
+   .btn-white {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-black);
+   }
 }
 
 .operation{
